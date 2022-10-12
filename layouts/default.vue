@@ -1,11 +1,18 @@
 <template>
     <div>
-        <header>
+        <!-- <header>
             <h1>{{ $route.name }} 페이지</h1>
             <nuxt-link to="/">홈페이지</nuxt-link>     
             <nuxt-link to="/main">메인 페이지</nuxt-link>     
             <nuxt-link to="/product">상품 페이지</nuxt-link>     
+        </header> -->
+
+        <header>
+            <h1>
+                <NuxtLink to="/">Nuxt Shopping</NuxtLink>
+            </h1>
         </header>
+        
         <Nuxt />
     </div>
   
