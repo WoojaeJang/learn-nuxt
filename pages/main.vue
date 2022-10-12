@@ -18,7 +18,7 @@ export default {
   //   console.log(response);
   //   const products = response.data;
   //   return { products }
-  // },s
+  // },
 
   // data() {
   //   return {
